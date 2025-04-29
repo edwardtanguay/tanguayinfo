@@ -1,6 +1,13 @@
 // qcli = quick tools for CLI commands
 
-type CliMessageKind = "info" | "error" | "success" | "warning" | "doing";
+type CliMessageKind =
+	| "info"
+	| "error"
+	| "success"
+	| "warning"
+	| "doing"
+	| "bluedot"
+	| "yellowdot";
 
 /**
  * prints a CLI message
@@ -22,6 +29,12 @@ export const message = (
 			break;
 		case "doing":
 			console.log(`⏳ ${line}`);
+			break;
+		case "bluedot":
+			console.log(`🔵 ${line}`);
+			break;
+		case "yellowdot":
+			console.log(`🟡 ${line}`);
 			break;
 		default:
 			console.log(`✅ ${line}`);

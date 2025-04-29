@@ -13,3 +13,20 @@ export const generateSuuid = (): string => {
 	}
 	return suuid;
 };
+
+
+//dpod
+/**
+ * Check if a string is empty.
+ *
+ * qstr.isEmpty('');
+ *
+ * true
+ */
+export const isEmpty = (line: string) => {
+	if (line === undefined || line === null) {
+		return true;
+	}
+	line = line.toString();
+	return line.trim() === "";
+};
