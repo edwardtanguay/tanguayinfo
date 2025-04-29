@@ -4,7 +4,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite --port 3273 --open",
+		"dev": "vite --port 3219 --open",
 		"cp": "cd scripts/commands && tsx create-page.ts",
 		"pd": "cd scripts/commands && tsx parse-data.ts",
 		"build": "tsc && vite build",
