@@ -5,19 +5,24 @@
 @layer base {
 	h1 {
 		font-variant: small-caps;
+		color: #4ade80; // Terminal green
+		text-shadow: 0 0 5px rgba(74, 222, 128, 0.3);
 	}
 	.btn-small {
-		@apply px-2 py-1 text-sm text-gray-700 bg-gray-200 border border-gray-300 rounded-md hover:bg-red-300;
+		@apply px-2 py-1 text-sm text-gray-200 bg-gray-800 border border-gray-700 rounded-md hover:bg-green-800;
 	}
 }
 
 a.active {
-	color: rgb(232, 232, 141);
+	color: #4ade80; // Terminal green
+	text-shadow: 0 0 5px rgba(74, 222, 128, 0.3);
 }
 
 body {
 	opacity: 0;
-	animation: fadeIn .3s ease-in forwards;
+	animation: fadeIn 0.3s ease-in forwards;
+	background-color: #0f172a; // Dark slate
+	color: #e2e8f0; // Light gray
 }
 
 @keyframes fadeIn {
@@ -27,4 +32,24 @@ body {
 	to {
 		opacity: 1;
 	}
+}
+
+// Terminal-like link styles
+a {
+	color: #60a5fa; // Light blue
+	transition: all 0.2s ease;
+
+	&:hover {
+		color: #4ade80; // Terminal green
+		text-shadow: 0 0 5px rgba(74, 222, 128, 0.3);
+	}
+}
+
+// Code-like text
+code {
+	background-color: #1e293b;
+	padding: 0.2rem 0.4rem;
+	border-radius: 0.25rem;
+	color: #f472b6; // Pink
+	font-family: monospace;
 }

@@ -35,7 +35,7 @@ export const Nav = () => {
 		<>
 			{currentMenuItem && (
 				<nav>
-					<div className="md:hidden bg-slate-500 text-[1.2rem] px-4 py-2 content">
+					<div className="md:hidden bg-slate-800 text-[1.2rem] px-4 py-2 content border border-slate-700 rounded">
 						<div className="flex justify-between">
 							<p>
 								<NavLink to={currentMenuItem.idCode}>
@@ -43,7 +43,7 @@ export const Nav = () => {
 								</NavLink>
 							</p>
 							<p
-								className="mt-1 cursor-pointer"
+								className="mt-1 cursor-pointer text-green-400"
 								onClick={handleMenuToggle}
 							>
 								<GiHamburgerMenu />
@@ -56,26 +56,26 @@ export const Nav = () => {
 										<React.Fragment key={index}>
 											{menuItem.idCode !==
 												currentMenuItem.idCode && (
-												<div className="mt-[.2rem]">
-													<NavLink
-														to={menuItem.idCode}
-														onClick={() =>
-															setShowMobileMenu(
-																false
-															)
-														}
-													>
-														{menuItem.title}
-													</NavLink>
-												</div>
-											)}
+													<div className="mt-[.2rem]">
+														<NavLink
+															to={menuItem.idCode}
+															onClick={() =>
+																setShowMobileMenu(
+																	false
+																)
+															}
+														>
+															{menuItem.title}
+														</NavLink>
+													</div>
+												)}
 										</React.Fragment>
 									);
 								})}
 							</div>
 						)}
 					</div>
-					<div className="hidden md:block bg-slate-500 px-4 py-2 content">
+					<div className="hidden md:block bg-slate-800 px-4 py-2 content border border-slate-700 rounded">
 						<ul className="flex gap-4">
 							{menuItems.map((menuItem, index) => {
 								return (
