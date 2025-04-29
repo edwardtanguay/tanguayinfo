@@ -8,15 +8,17 @@ export const ProjectArea = () => {
 		<div className="md:w-[30rem] w-full">
 			{projects.map((project, index) => {
 				return (
-					<div className="mb-4 w-full" key={index}>
-						<h2 className="mb-1 text-xl text-center font-semibold">{project.title}</h2>
+					<div className="mb-4 w-full bg-slate-800 p-3" key={index}>
+						<h2 className="bg-black p-2">
+							<p className="text-xl font-semibold">{project.title}</p>
+						</h2>
 						<a href={project.url} target="_blank" rel="noopener noreferrer">
 							<img
 								src={`images/${project.idCode}.png`}
-								className="mb-1 w-full md:w-[30rem] border rounded-lg border-slate-200"
+								className="w-full md:w-[30rem] border-y-2 border-slate-200"
 							/>
 						</a>
-						<p className="italic text- text-xs text-center text-slate-300">{project.body}</p>
+						<p className="bg-black p-2 italic text- text-xs text-center text-slate-300">{project.body}</p>
 					</div>
 				);
 			})}

@@ -1,6 +1,6 @@
 [
   {
-    "idCode": "techHowtos",
+    "idCode": "howtoSite",
     "title": "My Tech Howtos",
     "url": "https://tanguay-eu.vercel.app/howtos",
     "body": "Over 800 howtos I've created over the last 5 years explaining how to develop in numerous languages and frameworks, backend and frontend."
