@@ -22,8 +22,7 @@ export const mainModel: MainModel = {
 	}),
 
 	// thunks
-	initialize: thunk((actions, _, helpers) => {
+	initialize: thunk((actions) => {
 		actions.setMessage("Welcome to this site.");
-		helpers.getStoreActions().flashcardModel.loadFlashcardsThunk();
 	}),
 };
