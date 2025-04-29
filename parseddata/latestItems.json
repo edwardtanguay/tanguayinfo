@@ -1,0 +1,16 @@
+[
+  {
+    "idCode": "milanMarathon",
+    "whenOccured": "2025-04-06",
+    "title": "Finished the Milan Marathon",
+    "url": "https://edward-tanguay-eu.vercel.app/run/yPyqBA",
+    "body": "My 20-year-old daughter and I finished marathon together, her 2nd, my 35th."
+  },
+  {
+    "idCode": "datapodVideo001",
+    "whenOccured": "2025-04-27",
+    "title": "POSTED VIDEO: Project Datapod: Vibe-learning 10 backend languages by building 10 CLI frameworks",
+    "url": "https://www.youtube.com/watch?v=31ANUdLCAs8",
+    "body": "The video demonstrates the 10 frameworks I started in 10 different backend languages which generate code and data for a frontend React site."
+  }
+]
