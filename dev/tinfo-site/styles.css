@@ -1,0 +1,27 @@
+h1 {
+	font-variant: small-caps;
+	color: #facc15;
+	text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
+}
+
+a.active {
+	color: #facc15;
+	text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
+}
+
+body {
+	opacity: 0;
+	animation: fadeIn 0.3s ease-in forwards;
+	background-color: #0f172a;
+	color: #e2e8f0;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
