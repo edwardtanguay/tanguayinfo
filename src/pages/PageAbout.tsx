@@ -1,6 +1,6 @@
 export const PageAbout = () => {
 	return (
-		<>
+		<div className="md:w-[25rem] w-full">
 			<img src="images/edward.jpg" />
 			<p className="text-center mt-2">professional web developer, passionate learner, have philosophy degree, love languages, run marathons, concerned about society, critical as hell</p>
 			<h2 className="text-lg mt-3">Connect: </h2>
@@ -13,6 +13,6 @@ export const PageAbout = () => {
 				<li>live: <a className="underline" href="https://tanguayinfo.vercel.app">tanguayinfo.vercel.app</a></li>
 				<li>repo: <a className="underline" href="https://github.com/edwardtanguay/tanguayinfo">edwardtanguay/tanguayinfo</a></li>
 			</ul>
-		</>
+		</div>
 	)
 }
