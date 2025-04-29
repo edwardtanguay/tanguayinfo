@@ -5,17 +5,17 @@
 @layer base {
 	h1 {
 		font-variant: small-caps;
-		color: #4ade80; // Terminal green
-		text-shadow: 0 0 5px rgba(74, 222, 128, 0.3);
+		color: #facc15; // Yellow
+		text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
 	}
 	.btn-small {
-		@apply px-2 py-1 text-sm text-gray-200 bg-gray-800 border border-gray-700 rounded-md hover:bg-green-800;
+		@apply px-2 py-1 text-sm text-gray-200 bg-gray-800 border border-gray-700 rounded-md hover:bg-yellow-800;
 	}
 }
 
 a.active {
-	color: #4ade80; // Terminal green
-	text-shadow: 0 0 5px rgba(74, 222, 128, 0.3);
+	color: #facc15; // Yellow
+	text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
 }
 
 body {
@@ -40,8 +40,8 @@ a {
 	transition: all 0.2s ease;
 
 	&:hover {
-		color: #4ade80; // Terminal green
-		text-shadow: 0 0 5px rgba(74, 222, 128, 0.3);
+		color: #facc15; // Yellow
+		text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
 	}
 }
 

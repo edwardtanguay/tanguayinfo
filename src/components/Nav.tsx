@@ -43,7 +43,7 @@ export const Nav = () => {
 								</NavLink>
 							</p>
 							<p
-								className="mt-1 cursor-pointer text-green-400"
+								className="mt-1 cursor-pointer text-yellow-400"
 								onClick={handleMenuToggle}
 							>
 								<GiHamburgerMenu />
