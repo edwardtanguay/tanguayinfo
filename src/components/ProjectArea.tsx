@@ -13,7 +13,7 @@ export const ProjectArea = () => {
 						<a href={project.url} target="_blank" rel="noopener noreferrer">
 							<img
 								src={`images/${project.idCode}.png`}
-								className="mb-1 w-full md:w-[30rem] border rounded-lg border-slate-600"
+								className="mb-1 w-full md:w-[30rem] border rounded-lg border-slate-200"
 							/>
 						</a>
 						<p className="italic text- text-xs text-center text-slate-300">{project.body}</p>
