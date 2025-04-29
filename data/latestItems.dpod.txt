@@ -6,7 +6,7 @@ https://edward-tanguay-eu.vercel.app/run/yPyqBA
 My 20-year-old daughter and I finished marathon together, her 2nd, my 35th.
 
 ==latestItem
-datapodVideo
+datapodVideo001
 2025-04-27
 POSTED VIDEO: Project Datapod: Vibe-learning 10 backend languages by building 10 CLI frameworks
 https://www.youtube.com/watch?v=31ANUdLCAs8
