@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+	<title>Projects - Edward Tanguay</title>
+	<style>
+		/* Base styles */
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #0f172a;
+			color: #e2e8f0;
+			font-family: system-ui, -apple-system, sans-serif;
+			opacity: 0;
+			animation: fadeIn 0.3s ease-in forwards;
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+
+		/* Container */
+		.container {
+			max-width: 60rem;
+			margin: 1.5rem auto 0;
+			padding: 1rem;
+			background-color: #1e293b;
+			border: 1px solid #334155;
+			border-radius: 0.5rem;
+			box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+		}
+
+		/* Header */
+		h1 {
+			font-variant: small-caps;
+			color: #facc15;
+			text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
+			font-size: 1.875rem;
+			margin-bottom: 0.75rem;
+		}
+
+		/* Navigation */
+		.nav {
+			background-color: #1e293b;
+			padding: 0.5rem 1rem;
+			border: 1px solid #334155;
+			border-radius: 0.25rem;
+			margin-bottom: 1rem;
+		}
+
+		.nav ul {
+			display: flex;
+			gap: 1rem;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.nav a {
+			color: #60a5fa;
+			text-decoration: none;
+			transition: all 0.2s ease;
+		}
+
+		.nav a:hover {
+			color: #facc15;
+			text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
+		}
+
+		.nav a.active {
+			color: #facc15;
+			text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
+		}
+
+		/* Content */
+		.content {
+			padding: 1rem 0;
+		}
+
+		/* Mobile Navigation */
+		@media (max-width: 768px) {
+			.container {
+				margin: 0;
+				border-radius: 0;
+			}
+
+			.nav {
+				display: none;
+			}
+
+			.mobile-nav {
+				display: block;
+				background-color: #1e293b;
+				padding: 0.5rem 1rem;
+				border: 1px solid #334155;
+				border-radius: 0.25rem;
+				margin-bottom: 1rem;
+			}
+
+			.mobile-nav-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			.mobile-menu {
+				display: none;
+			}
+
+			.mobile-menu.show {
+				display: block;
+			}
+
+			.hamburger {
+				color: #facc15;
+				cursor: pointer;
+			}
+		}
+
+		@media (min-width: 769px) {
+			.mobile-nav {
+				display: none;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Edward Tanguay</h1>
+			<nav class="nav">
+				<ul>
+					<li><a href="#"
+						   class="active">Projects</a></li>
+					<li><a href="#">Latest</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</nav>
+			<div class="mobile-nav">
+				<div class="mobile-nav-header">
+					<p><a href="#"
+						   class="active">Projects</a></p>
+					<p class="hamburger"
+					   onclick="toggleMenu()">☰</p>
+				</div>
+				<div class="mobile-menu"
+					 id="mobileMenu">
+					<div><a href="#">Latest</a></div>
+					<div><a href="#">About</a></div>
+				</div>
+			</div>
+		</header>
+		<main class="content">
+			<p>Welcome to this site.</p>
+		</main>
+	</div>
+
+	<script>
+		function toggleMenu() {
+			const menu = document.getElementById('mobileMenu');
+			menu.classList.toggle('show');
+		}
+	</script>
+</body>
+
+</html>
