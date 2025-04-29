@@ -10,7 +10,7 @@ a.active {
 }
 
 a {
-	color: #60a5fa;
+	color: #60a5fa !important;
 }
 
 body {
