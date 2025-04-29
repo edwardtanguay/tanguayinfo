@@ -1,6 +1,6 @@
-export type Flashcard = {
-	suuid: string;
-	category: string;
-	front: string;
-	back: string;
+export type Project = {
+	idCode: string;
+	title: string;
+	url: string;
+	body: string;
 };

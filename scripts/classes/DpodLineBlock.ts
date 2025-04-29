@@ -1,9 +1,8 @@
 import * as qstr from "../qtools/qstr";
 import * as qcli from "../qtools/qcli";
 
-
 export class DpodLineBlock {
-	private lines: string[] = [];
+	public lines: string[] = [];
 
 	constructor(line = "") {
 		if (!qstr.isEmpty(line)) {

@@ -6,7 +6,7 @@ import { DpodLineBlock } from "./DpodLineBlock";
 export class DpodFile {
 	private pathAndFileName: string;
 	private lines: string[] = [];
-	private dpodLineBlocks: DpodLineBlock[] = [];
+	public dpodLineBlocks: DpodLineBlock[] = [];
 
 	constructor(pathAndFileName: string) {
 		this.pathAndFileName = pathAndFileName;
