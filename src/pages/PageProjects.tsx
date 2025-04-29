@@ -1,11 +1,19 @@
-import { useTypedStoreState } from "../store/hooks";
-
 export const PageProjects = () => {
-	const { message } = useTypedStoreState((state) => state.mainModel);
-
 	return (
 		<>
-			<p className="mb-3">{message}</p>
+			<p className="mb-3">Click the image to visit:</p>
+			<div className="mb-3">
+				<img
+					src="images/techHowtos.png"
+					className="w-full md:w-[30rem] border-[.3rem] rounded-lg border-gray-500"
+				/>
+			</div>
+			<div className="mb-3">
+				<img
+					src="images/compoutput.png"
+					className="w-full md:w-[30rem] border-[.3rem] rounded-lg border-gray-500"
+				/>
+			</div>
 		</>
 	);
 };

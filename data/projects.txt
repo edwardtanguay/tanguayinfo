@@ -1,0 +1,11 @@
+==project
+techHowtos
+My tech howtos since 2019
+https://tanguay-eu.vercel.app/howtos
+These are over 800 howtos that I created in the last 5 years explaining how to develop in numerous languages and framework, backend and frontend. They are step-by-step instructions with images and animated gives, most have a link to the repository containing the finished project. 
+
+==project
+techHowtos
+Comprehensible Ouput
+https://comprehensible-output.vercel.app
+This is a site I use to learn numerous languages at once including German, French, Spanish, Italian, Dutch and Polish. The goal is to produce enough text in these target languages everyday in order to record an audio reading them out load that lasts at least 5 minutes.
