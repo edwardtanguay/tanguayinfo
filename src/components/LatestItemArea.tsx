@@ -9,7 +9,10 @@ export const LatestItemArea = () => {
 			{latestItems.map((latestItem, index) => {
 				return (
 					<div className="mb-4 w-full bg-slate-800 p-3" key={index}>
-						<h2 className="bg-slate-950 p-2 text-xl font-semibold">{latestItem.title}</h2>
+						<h2 className="bg-slate-950 p-2">
+							<p className="text-yellow-300 text-xs">The date here</p>
+							<p className="text-xl font-semibold">{latestItem.title}</p>
+						</h2>
 						<a href={latestItem.url} target="_blank" rel="noopener noreferrer">
 							<img
 								src={`images/${latestItem.idCode}.png`}
