@@ -1,5 +1,7 @@
+import { LatestItemArea } from "../components/LatestItemArea"
+
 export const PageLatest = () => {
 	return (
-		<p>This is the latest page.</p>
+		<LatestItemArea />
 	)
 }
