@@ -8,15 +8,15 @@ export const LatestItemArea = () => {
 		<div className="md:w-[30rem] w-full">
 			{latestItems.map((latestItem, index) => {
 				return (
-					<div className="mb-4 w-full" key={index}>
-						<h2 className="mb-1 text-xl text-center font-semibold">{latestItem.title}</h2>
+					<div className="mb-4 w-full bg-slate-800 p-3" key={index}>
+						<h2 className="bg-slate-950 p-2 text-xl font-semibold">{latestItem.title}</h2>
 						<a href={latestItem.url} target="_blank" rel="noopener noreferrer">
 							<img
 								src={`images/${latestItem.idCode}.png`}
-								className="mb-1 w-full md:w-[30rem] border rounded-lg border-slate-200"
+								className="w-full md:w-[30rem] border-0 border-slate-600"
 							/>
 						</a>
-						<p className="italic text- text-xs text-center text-slate-300">{latestItem.body}</p>
+						<p className="bg-slate-950 p-2 italic text- text-xs text-center text-slate-300">{latestItem.body}</p>
 					</div>
 				);
 			})}
