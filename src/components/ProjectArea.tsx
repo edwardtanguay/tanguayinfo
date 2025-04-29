@@ -12,7 +12,7 @@ export const ProjectArea = () => {
 						<h2 className="mb-1 text-xl text-center font-semibold">{project.title}</h2>
 						<img
 							src={`images/${project.idCode}.png`}
-							className="mb-1 w-full md:w-[30rem] border-[.3rem] rounded-lg border-yellow-500"
+							className="mb-1 w-full md:w-[30rem] border-[.2rem] rounded-lg border-yellow-500"
 						/>
 						<p className="italic text- text-xs text-center text-slate-300">{project.body}</p>
 					</div>

@@ -1,20 +1,20 @@
 [
   {
     "idCode": "techHowtos",
-    "title": "My tech howtos since 2019",
+    "title": "My Tech Howtos",
     "url": "https://tanguay-eu.vercel.app/howtos",
-    "body": "These are over 800 howtos that I created in the last 5 years explaining how to develop in numerous languages and framework, backend and frontend. They are step-by-step instructions with images and animated gives, most have a link to the repository containing the finished project."
+    "body": "Over 800 howtos I've created over the last 5 years explaining how to develop in numerous languages and frameworks, backend and frontend."
   },
   {
     "idCode": "youtubeChannel",
-    "title": "My YouTube Tech Channel",
+    "title": "My Tech YouTube Channel",
     "url": "https://www.youtube.com/@edward481",
-    "body": "I regularly post 30-45 minute videos on projects I am working on, lately my Datapod framework that I am working on."
+    "body": "Tech videos on projects or new tech I am working on, lately my Datapod framework."
   },
   {
     "idCode": "compoutput",
     "title": "Comprehensible Ouput",
     "url": "https://comprehensible-output.vercel.app",
-    "body": "This is a site I use to learn numerous languages at once including German, French, Spanish, Italian, Dutch and Polish. The goal is to produce enough text in these target languages everyday in order to record an audio reading them out load that lasts at least 5 minutes."
+    "body": "A site I made to learn numerous languages including German, French, Spanish, Italian, Dutch and Polish. Goal is to produce a 5 minute audio text each day."
   }
 ]
