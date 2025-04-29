@@ -16,5 +16,17 @@
     "title": "Comprehensible Ouput",
     "url": "https://comprehensible-output.vercel.app",
     "body": "An app I made to daily improve fluency in numerous languages including German, French, Spanish, Italian, Dutch and Polish. Goal is to produce a 5-minute audio text each day."
+  },
+  {
+    "idCode": "learntracker",
+    "title": "Learn Tracker",
+    "url": "https://tanguay.info/learntracker/page/lectureNotesItems",
+    "body": "My notes on over 900 free online lectures from universities around the world."
+  },
+  {
+    "idCode": "booksReading",
+    "title": "Books I'm Reading",
+    "url": "https://tanguay.info/learntracker/page/book/homodeus",
+    "body": "Notes on books I am reading."
   }
 ]
