@@ -27,7 +27,7 @@ export const Nav = () => {
 		<>
 			{currentMenuItem && (
 				<nav>
-					<div className="bg-slate-800 px-4 py-2 content border border-slate-700 rounded">
+					<div className="bg-slate-800 px-4 py-2 content border-0 border-slate-700 rounded">
 						<ul className="flex gap-4">
 							{menuItems.map((menuItem, index) => {
 								return (

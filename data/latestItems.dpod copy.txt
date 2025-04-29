@@ -1,0 +1,14 @@
+==latestItem
+milanMarathon
+2025-04-06
+Finished the Milan Marathon
+https://edward-tanguay-eu.vercel.app/run/yPyqBA
+My 20-year-old daughter and I finished marathon together, her 2nd, my 35th.
+
+==latestItem
+datapodVideo
+2025-04-27
+POSTED VIDEO: Project Datapod: Vibe-learning 10 backend languages by building 10 CLI frameworks
+https://www.youtube.com/watch?v=31ANUdLCAs8
+The video demonstrates the 10 frameworks I started in 10 different backend languages which generate code and data for a frontend React site.
+
