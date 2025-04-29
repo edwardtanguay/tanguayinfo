@@ -127,3 +127,29 @@ export const saveStringArrayToJsonFile = (
 		);
 	}
 };
+
+//dpod
+/**
+ * Saves an array of objects to a JSON file.
+ *
+ * @param objects - The array of objects to save.
+ * @param jsonFileName - The name of the JSON file to write to.
+ */
+export const saveArrayOfObjectsToJsonFile = (
+	objects: unknown[],
+	jsonFileName: string
+): void => {
+	try {
+		const jsonData = JSON.stringify(objects, null, 2);
+		fs.writeFileSync(jsonFileName, jsonData, "utf-8");
+		qcli.message(
+			`Successfully saved ${objects.length} objects to ${jsonFileName}`,
+			"success"
+		);
+	} catch (error) {
+		qcli.message(
+			`Error saving objects to ${jsonFileName}: ${error.message}`,
+			"error"
+		);
+	}
+};

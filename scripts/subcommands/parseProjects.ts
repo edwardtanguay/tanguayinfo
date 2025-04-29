@@ -1,6 +1,6 @@
 import { DpodFile } from "../classes/DpodFile";
 import { Project } from "../types";
-import * as qdev from "../qtools/qdev";
+import * as qfil from "../qtools/qfil";
 
 export const parseProjects = () => {
 	const dpodFile = new DpodFile("../../data/projects.dpod.txt");
@@ -14,5 +14,5 @@ export const parseProjects = () => {
 		}
 		projects.push(project)
 	}
-	qdev.debug(projects);
+	qfil.saveArrayOfObjectsToJsonFile(projects, "../../parseddata/projects.json");
 }
