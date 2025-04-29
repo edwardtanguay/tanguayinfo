@@ -5,6 +5,12 @@ https://tanguay-eu.vercel.app/howtos
 These are over 800 howtos that I created in the last 5 years explaining how to develop in numerous languages and framework, backend and frontend. They are step-by-step instructions with images and animated gives, most have a link to the repository containing the finished project. 
 
 ==project
+youtubeChannel
+My YouTube Tech Channel
+https://www.youtube.com/@edward481
+I regularly post 30-45 minute videos on projects I am working on, lately my Datapod framework that I am working on.
+
+==project
 compoutput
 Comprehensible Ouput
 https://comprehensible-output.vercel.app

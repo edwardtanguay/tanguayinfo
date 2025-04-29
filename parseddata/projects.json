@@ -6,6 +6,12 @@
     "body": "These are over 800 howtos that I created in the last 5 years explaining how to develop in numerous languages and framework, backend and frontend. They are step-by-step instructions with images and animated gives, most have a link to the repository containing the finished project."
   },
   {
+    "idCode": "youtubeChannel",
+    "title": "My YouTube Tech Channel",
+    "url": "https://www.youtube.com/@edward481",
+    "body": "I regularly post 30-45 minute videos on projects I am working on, lately my Datapod framework that I am working on."
+  },
+  {
     "idCode": "compoutput",
     "title": "Comprehensible Ouput",
     "url": "https://comprehensible-output.vercel.app",
