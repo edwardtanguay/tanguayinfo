@@ -6,7 +6,7 @@ Over 800 howtos I've created over the last 5 years explaining how to develop in 
 
 ==project
 youtubeChannel
-My Tech YouTube Channel
+My YouTube Tech Channel
 https://www.youtube.com/@edward481
 Tech videos on projects or new tech I am working on, lately my Datapod framework.
 
@@ -14,4 +14,4 @@ Tech videos on projects or new tech I am working on, lately my Datapod framework
 compoutput
 Comprehensible Ouput
 https://comprehensible-output.vercel.app
-A site I made to learn numerous languages including German, French, Spanish, Italian, Dutch and Polish. Goal is to produce a 5 minute audio text each day.
+An app I made to daily practice numerous languages including German, French, Spanish, Italian, Dutch and Polish. Goal is to produce a 5-minute audio text each day.
