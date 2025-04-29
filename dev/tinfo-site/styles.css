@@ -9,6 +9,10 @@ a.active {
 	text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);
 }
 
+a {
+	color: #60a5fa;
+}
+
 body {
 	opacity: 0;
 	animation: fadeIn 0.3s ease-in forwards;
