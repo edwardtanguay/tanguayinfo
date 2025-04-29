@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "vite --port 3219 --open",
 		"cp": "cd scripts/commands && tsx create-page.ts",
-		"pd": "cd scripts/commands && tsx parse-data.ts",
+		"pd": "cd scripts/commands && tsx parseData.ts",
 		"build": "tsc && vite build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
