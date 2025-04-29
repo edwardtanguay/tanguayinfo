@@ -11,8 +11,8 @@ const menuItems = [
 		title: "Projects",
 	},
 	{
-		idCode: "info",
-		title: "Info",
+		idCode: "latest",
+		title: "Latest",
 	},
 	{
 		idCode: "about",
