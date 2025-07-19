@@ -15,7 +15,6 @@ export const generateSuuid = (): string => {
 };
 
 
-//dpod
 /**
  * Check if a string is empty.
  *

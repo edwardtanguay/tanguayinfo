@@ -128,7 +128,6 @@ export const saveStringArrayToJsonFile = (
 	}
 };
 
-//dpod
 /**
  * Saves an array of objects to a JSON file.
  *

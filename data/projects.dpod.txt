@@ -5,6 +5,12 @@ https://tanguay-eu.vercel.app/howtos
 Over 800 howtos I've created over the last 5 years explaining how to develop in numerous languages and frameworks, backend and frontend. 
 
 ==project
+datapodProject
+My Datapod Project
+https://datapod-tanguay-eu.vercel.app
+An opensource framework that helps you make simple websites and dashboards, 10 versions in 10 languages
+
+==project
 youtubeChannel
 My YouTube Tech Channel
 https://www.youtube.com/@edward481
